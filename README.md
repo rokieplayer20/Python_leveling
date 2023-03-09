@@ -1,6 +1,8 @@
 이곳은 내가 인프런에서 들은 강좌를 정리해놓은 것이다.
 파이썬 문법 과정에서 초급부터 고급까지 있다.
 
+각 폴더로 들어가면 파일 뒤에 숫자가 있다 그 순서대로 보면 된다.
+
 level1: 프로그래밍 시작하기 : 파이썬 입문 (Inflearn Original)
 https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%9E%85%EB%AC%B8-%EC%9D%B8%ED%94%84%EB%9F%B0-%EC%98%A4%EB%A6%AC%EC%A7%80%EB%84%90
 
@@ -22,3 +24,5 @@ https://www.inflearn.com/course/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%E
 Numpy: 데이터 과학을 위한 파이썬 NumPy Basic
 
 https://www.inflearn.com/course/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B3%BC%ED%95%99-%EB%84%98%ED%8C%8C%EC%9D%B4-%EA%B8%B0%EB%B3%B8#curriculum
+
+각 폴더로 들어가면 파일 뒤에 숫자가 있다 그 순서대로 보면 된다.
