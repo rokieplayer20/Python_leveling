@@ -1,0 +1,24 @@
+O(1)
+stack의 푸시, 팝
+queue의 enqueue dequeue
+hash table 접근
+
+O(logN)
+BST의 접근 검색 삽입 삭제
+
+O(n)
+linked list의 traverse 
+tree의 traverse
+
+O(NlogN)
+Quick Sort, Merge Sort, Heap Sort
+
+O(n^2)
+insertion Sort, bubble Sort, Selection Sort
+
+Merge Sort
+NlogN만큼 걸린다. 배열을 2개씩 나눌 때 logN이 걸리며 나눈 것을 비교하면서 합칠 때 n만큼 걸린다.
+
+
+Bubble Sort
+사간 n^2, 공간 O(1) -> swapping을 위한 공간

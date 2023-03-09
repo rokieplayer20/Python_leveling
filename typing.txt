@@ -1,0 +1,45 @@
+그냥 optional argument는 디폴트를 갖는 인수라는 뜻이고, Optional은 T이거나 None이거나 둘 중 하나라는 뜻이다. 
+Union[int, str]은 int 혹은 str이란 뜻으로 합집합을 뜻한다. 
+
+
+from typing import (
+    Generic,    # C++의 generic과 똑같은 기능
+    Iterable,
+    Iterator,
+    List,
+    Optional, # Optional[T]는 T or None이다.
+    Sequence,
+    Tuple,
+    TypeVar,
+)
+
+
+
+
+typing.TypeVar 
+T = TypeVar('T')  Can be anything   
+T 이름은 무엇이든지 될 수 있다.
+
+S = TypeVar('S', bound=str) Can be any subtype of str 
+S는 str의 자기클래스이거나 서브클래스여야 한다.
+
+A = TypeVar('A', str, bytes) Must be exactly str or bytes 
+A는 반드시 str 혹은 bytes 둘 중에 하나여만 한다.
+
+함수의 원형이다.
+TypeVar(name: str, bound: type =None, *types) 
+
+사용할 때는 type[내가 지정한 이름] 이렇게 사용하면 된다.
+
+
+
+ class typing.Generic
+  Abstract base class for generic types.
+    A generic type is typically declared by inheriting from an instantiation of this class with one or more type variables. 
+    For example, a generic mapping type might be defined as:
+
+class Mapping(Generic[KT, VT]): <br>
+    
+    def __getitem__(self, key: KT) -> VT:<br>
+
+파이썬의 제네릭은 상속 형식으로 사용하며 C++에서 사용하는 것과 같은 의미를 갖는다.
